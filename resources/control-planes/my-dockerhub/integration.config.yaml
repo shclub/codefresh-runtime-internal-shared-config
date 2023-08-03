@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-dockerhub
+  labels:
+    codefresh.io/entity: integration-config
+    codefresh.io/integration-type: registry.dockerhub
+data:
+  username: shclub
