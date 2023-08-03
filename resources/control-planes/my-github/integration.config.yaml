@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-github
+  labels:
+    codefresh.io/entity: integration-config
+    codefresh.io/integration-type: registry.ghcr
+data:
+  domain: ghcr.io
+  username: shclub
